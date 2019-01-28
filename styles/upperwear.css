@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1{
+	font-size: 180%;
+}
+h2{
+	text-decoration: underline;
+}
+p{
+	padding: 0%;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'open sans';
+	font: 14px 20px arial, san-serif;
+	margin: 0 auto;
+	width: 97%;
+
+}
+div#header {
+	width: 100%;
+	height: 100px;
+	background-color: gray;
+	margin: 0 auto; 
+	z-index: 100;
+	opacity: 0.9%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.logo a{
+	font-size: 1.9em;
+	color: #fff;
+	padding: 50px 5px;
+}
+.logo a span{
+	font-weight: 900;
+	text-decoration: none;
+
+}
+
+.logo input{
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #f0f0f0;
+	opacity: 0.9%; 
+}
+.mainmenu{
+	margin-top: 5px;
+}
+.mainmenu nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainmenu nav ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.mainmenu nav ul li{
+	float: left;
+	display: inline;
+	padding: 0px 10px;
+}
+.mainmenu nav a:link, .mainmenu nav a:visited{
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+.mainmenu nav a:hover, .mainmenu nav a:active, .mainmenu nav .active a:link, .mainmenu nav .active a:visited{
+    background-color: #CF5C3F;
+    text-shadow: none;
+}
+.mainmenu nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.sidebar{
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.sidebar{
+	width: 250px;
+	height: 600px;
+	background-color: #333333;
+	float:left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+ul#bar{
+}
+
+ul#bar li{
+	list-style: none;
+}
+
+ul#bar li a{
+	color: #ccc;
+	display: block;
+	padding: 10px;
+	font-size: 1.0em;
+	border-bottom: 1px solid #0A0A0A;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+ul#bar li a:hover{
+	background-color: #030303;
+	color: #fff;
+	padding-left: 30px;
+}
+
+ul#bar li a.selected{
+	background-color: #030303;
+	color: #fff;
+}
+div#upperwear{
+	padding: 1px 20px;
+	margin-top: 0px;
+
+}
+div#upperwear article{
+	margin: 20px 250px;
+	width: 50%;
+}
+div#upperwear article img{
+	display: inline;
+	display: inline-block;
+}
+.boomer article{
+	color: #1B4F72;
+	background-color: #D0D3D4;
+	margin-top: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300px;
+}
+.boomer h1{
+	color: #17202A;
+}
+.boomer {
+	height: auto;
+	margin: 2% 2%;
+}
+.denimjackets article{
+	color: #1B4F72;
+	background-color: #D0D3D4;
+	margin-top: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300px;
+}
+.denimjackets h1{
+	color: #17202A;
+}
+.denimjackets {
+	height: auto;
+	margin: 2% 2%;
+}
+.facemasks article{
+	color: #1B4F72;
+	background-color: #D0D3D4;
+	margin-top: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300px;
+}
+.facemasks h1{
+	color: #17202A;
+}
+.facemasks {
+	height: auto;
+	margin: 2% 2%;
+}
+.upperweartshirts article{
+	color: #1B4F72;
+	background-color: #D0D3D4;
+	margin-top: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300px;
+}
+.upperweartshirts h1{
+	color: #17202A;
+}
+.upperweartshirts {
+	height: auto;
+	margin: 2% 2%;
+}
+
+footer{
+	background-color: #333333;
+	text-align: center;
+	opacity: 0.95px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+footer p, footer h3{
+	color: #fff;
+}
+footer.second{
+	border-top: 50px solid  #333333;
+	background-color: #333333;
+	max-height: 100px;
+	text-align: center;
+	opacity: 0.95;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}

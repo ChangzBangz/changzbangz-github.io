@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1{
+	font-size: 180%;
+}
+h2{
+	text-decoration: underline;
+}
+p{
+	padding: 0%;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'open sans';
+	font: 14px 20px arial, san-serif;
+	margin: 0 auto;
+	width: 97%;
+
+}
+div#header {
+	width: 100%;
+	height: 100px;
+	background-color: gray;
+	margin: 0 auto; 
+	z-index: 100;
+	opacity: 0.9%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.logo {
+	margin-top: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.logo a{
+	font-size: 1.9em;
+	color: #fff;
+	padding: 50px 5px;
+}
+.logo a span{
+	font-weight: 900;
+	text-decoration: none;
+
+}
+
+.logo input{
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	background: #f0f0f0;
+	opacity: 0.9%; 
+}
+.mainmenu{
+	margin-top: 5px;
+}
+.mainmenu nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.mainmenu nav ul{
+	list-style: none;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+.mainmenu nav ul li{
+	float: left;
+	display: inline;
+	padding: 0px 10px;
+}
+.mainmenu nav a:link, .mainmenu nav a:visited{
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+.mainmenu nav a:hover, .mainmenu nav a:active, .mainmenu nav .active a:link, .mainmenu nav .active a:visited{
+    background-color: #CF5C3F;
+    text-shadow: none;
+}
+.mainmenu nav ul li a{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.typeofshoes{
+	color: #fff;
+	padding: 0px;
+	font-size: 1.0em;
+	border-bottom: 1px;
+	font-weight: 300px;
+	font-size: 20px;
+}
+
+div#shoes{
+	margin-top: 0px;
+
+}
+div#shoes article{
+	width: 50%;
+}
+div#shoes article img{
+	display: inline;
+	display: inline-block;
+}
